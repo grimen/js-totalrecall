@@ -1,0 +1,37 @@
+{
+    "name": "js-totalrecall",
+    "version": "0.1.0",
+    "description": "A runtime step profiler - for Node/JavaScript.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/grimen/js-totalrecall.git"
+    },
+    "bugs": {
+        "url": "https://github.com/grimen/js-totalrecall/issues"
+    },
+    "homepage": "https://github.com/grimen/js-totalrecall#readme",
+    "author": "Jonas Grimfelt <jonas@markable.ai> (https://github.com/grimen)",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx jest",
+        "test-ci": "npx jest --runInBand --forceExit --detectOpenHandles",
+        "test-dev": "npx jest --watch",
+        "validate": "npx eslint \"**/*.js\"",
+        "release": "./bin/release"
+    },
+    "dependencies": {
+        "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.14.1",
+        "jest": "^24.1.0"
+    },
+    "jest": {
+        "bail": true,
+        "verbose": true,
+        "testRegex": "test_.*\\.js",
+        "testEnvironment": "node"
+    }
+}
