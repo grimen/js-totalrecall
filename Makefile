@@ -20,3 +20,7 @@ test-dev:
 .PHONY: validate
 validate:
 	yarn run validate
+
+.PHONY: release
+release:
+	yarn publish

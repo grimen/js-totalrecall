@@ -2,6 +2,17 @@
     "name": "js-totalrecall",
     "version": "0.1.0",
     "description": "A runtime step profiler - for Node/JavaScript.",
+    "keywords": [
+        "profiler",
+        "step-profiler",
+        "step-runtime-profiler",
+        "runtime-profiler",
+        "runtime",
+        "step",
+        "timer",
+        "function",
+        "mixin"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/grimen/js-totalrecall.git"
