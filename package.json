@@ -1,5 +1,5 @@
 {
-    "name": "js-totalrecall",
+    "name": "totalrecall",
     "version": "0.1.0",
     "description": "A runtime step profiler - for Node/JavaScript.",
     "keywords": [
