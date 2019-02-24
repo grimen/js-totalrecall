@@ -23,4 +23,4 @@ validate:
 
 .PHONY: release
 release:
-	yarn publish
+	yarn publish --access public
