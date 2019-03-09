@@ -1,5 +1,5 @@
 
-# `js-totalrecall` [![NPM version](https://badge.fury.io/js/%40grimen%2Ftotalrecall.svg)](https://badge.fury.io/js/%40grimen%2Ftotalrecall) [![Build Status](https://travis-ci.com/grimen/js-totalrecall.svg?token=sspjPRWbecBSpceU8Jyn&branch=master)](https://travis-ci.com/grimen/js-totalrecall)
+# `js-totalrecall` [![NPM version](https://badge.fury.io/js/%40grimen%2Ftotalrecall.svg)](https://badge.fury.io/js/%40grimen%2Ftotalrecall) [![Build Status](https://travis-ci.com/grimen/js-totalrecall.svg?token=sspjPRWbecBSpceU8Jyn&branch=master)](https://travis-ci.com/grimen/js-totalrecall) [![Coverage Status](https://codecov.io/gh/grimen/js-totalrecall/branch/master/graph/badge.svg)](https://codecov.io/gh/grimen/js-totalrecall)
 
 *A runtime step profiler - for Node/JavaScript.*
 
