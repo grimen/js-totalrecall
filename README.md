@@ -1,5 +1,5 @@
 
-# `js-totalrecall` [![Build Status](https://travis-ci.com/grimen/js-totalrecall.svg?token=sspjPRWbecBSpceU8Jyn&branch=master)](https://travis-ci.com/grimen/js-totalrecall)
+# `js-totalrecall` [![NPM version](https://badge.fury.io/js/%40grimen%2Ftotalrecall.svg)](https://badge.fury.io/js/%40grimen%2Ftotalrecall) [![Build Status](https://travis-ci.com/grimen/js-totalrecall.svg?token=sspjPRWbecBSpceU8Jyn&branch=master)](https://travis-ci.com/grimen/js-totalrecall)
 
 *A runtime step profiler - for Node/JavaScript.*
 
@@ -16,13 +16,13 @@ This is an **MVP** that most likely will be extended with more profiling feature
 Install using **npm**:
 
 ```bash
-$ npm install totalrecall
+$ npm install @grimen/totalrecall
 ```
 
 Install using **yarn**:
 
 ```bash
-$ yarn add totalrecall
+$ yarn add @grimen/totalrecall
 ```
 
 
@@ -31,7 +31,7 @@ $ yarn add totalrecall
 Very basic **[example](https://github.com/grimen/js-totalrecall/tree/master/examples/basic.js)**:
 
 ```javascript
-const totalrecall = require('totalrecall')
+const totalrecall = require('@grimen/totalrecall')
 
 const sleep = (seconds = 0) => {
     return new Promise((resolve) => {
