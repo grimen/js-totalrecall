@@ -319,7 +319,7 @@ class RuntimeProfilerTimer extends Profiler {
         if (this._steps.length) {
             const firstStep = this._steps[0]
 
-            return firstStep['end_at']
+            return firstStep['begin_at']
 
         } else {
             return null

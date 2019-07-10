@@ -59,8 +59,7 @@ describe('totalrecall', () => {
 
         timer.end()
 
-        // NOTE: should be `0.6`, but is always something slightly above `0.5` =S
-        expect(parseFloat(timer.time.toPrecision(1))).toBeCloseTo(0.5, 0.6)
+        expect(parseFloat(timer.time.toPrecision(1))).toBe(0.6)
 
         expect(timer.steps).toBeInstanceOf(Array)
         expect(timer.steps.length).toEqual(3)
