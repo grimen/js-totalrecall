@@ -11,7 +11,7 @@ Aggregating runtime statistics and/or finding bottlenecks in code is one of the 
 This is an **MVP** that most likely will be extended with more profiling features.
 
 
-# Install
+## Install
 
 Install using **npm**:
 
@@ -26,7 +26,7 @@ $ yarn add @grimen/totalrecall
 ```
 
 
-# Use
+## Use
 
 Very basic **[example](https://github.com/grimen/js-totalrecall/tree/master/examples/basic.js)**:
 
@@ -94,7 +94,7 @@ console.log('[profiler.time / detailed]: STEPS:', profiler.steps)
 ```
 
 
-# Test
+## Test
 
 Clone down source code:
 
